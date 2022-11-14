@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="free" label="Free" language="en" table="x_730120_learning_training">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>free</element>
+            <help/>
+            <hint/>
+            <label>Free</label>
+            <language>en</language>
+            <name>x_730120_learning_training</name>
+            <plural>Frees</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-14 15:14:21</sys_created_on>
+            <sys_name>Free</sys_name>
+            <sys_package display_value="Learning" source="x_730120_learning">1fd3f35f97031110094db0efe153afdc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Learning">1fd3f35f97031110094db0efe153afdc</sys_scope>
+            <sys_update_name>sys_documentation_x_730120_learning_training_free_en</sys_update_name>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

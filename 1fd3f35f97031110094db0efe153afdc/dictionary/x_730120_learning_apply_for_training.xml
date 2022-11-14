@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dd387b5397431110094db0efe153af13" label="apply_for_training" max_length="40" name="x_730120_learning_apply_for_training" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Applied date" max_length="40" name="applied_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="Subject" max_length="32" name="subject" reference="x_730120_learning_training" type="reference"/>
+        <element attributes="encode_utf8=false" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Manager" max_length="32" name="u_manager" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Reason" max_length="40" name="u_reason" type="string"/>
+        <index name="index">
+            <element name="subject"/>
+        </index>
+        <index name="index2">
+            <element name="u_manager"/>
+        </index>
+        <index name="index3">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
